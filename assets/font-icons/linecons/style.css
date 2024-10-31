@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'react-icons-linecons';
+  src:
+    url('fonts/react-icons-linecons.ttf?xc0pdl') format('truetype'),
+    url('fonts/react-icons-linecons.woff?xc0pdl') format('woff'),
+    url('fonts/react-icons-linecons.svg?xc0pdl#react-icons-linecons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="react-icons-linecons-"], [class*=" react-icons-linecons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'react-icons-linecons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.react-icons-linecons-heart3:before {
+  content: "\ed07";
+}
+.react-icons-linecons-cloud3:before {
+  content: "\ed08";
+}
+.react-icons-linecons-star4:before {
+  content: "\ed09";
+}
+.react-icons-linecons-tv3:before {
+  content: "\ed0a";
+}
+.react-icons-linecons-sound:before {
+  content: "\ed0b";
+}
+.react-icons-linecons-video1:before {
+  content: "\ed0c";
+}
+.react-icons-linecons-trash2:before {
+  content: "\ed0d";
+}
+.react-icons-linecons-user4:before {
+  content: "\ed0e";
+}
+.react-icons-linecons-key4:before {
+  content: "\ed0f";
+}
+.react-icons-linecons-search3:before {
+  content: "\ed10";
+}
+.react-icons-linecons-settings1:before {
+  content: "\ed11";
+}
+.react-icons-linecons-camera5:before {
+  content: "\ed12";
+}
+.react-icons-linecons-tag2:before {
+  content: "\ed13";
+}
+.react-icons-linecons-lock3:before {
+  content: "\ed14";
+}
+.react-icons-linecons-bulb:before {
+  content: "\ed15";
+}
+.react-icons-linecons-pen3:before {
+  content: "\ed16";
+}
+.react-icons-linecons-diamond1:before {
+  content: "\ed17";
+}
+.react-icons-linecons-display1:before {
+  content: "\ed18";
+}
+.react-icons-linecons-location3:before {
+  content: "\ed19";
+}
+.react-icons-linecons-eye4:before {
+  content: "\ed1a";
+}
+.react-icons-linecons-bubble1:before {
+  content: "\ed1b";
+}
+.react-icons-linecons-stack1:before {
+  content: "\ed1c";
+}
+.react-icons-linecons-cup:before {
+  content: "\ed1d";
+}
+.react-icons-linecons-phone4:before {
+  content: "\ed1e";
+}
+.react-icons-linecons-news1:before {
+  content: "\ed1f";
+}
+.react-icons-linecons-mail6:before {
+  content: "\ed20";
+}
+.react-icons-linecons-like:before {
+  content: "\ed21";
+}
+.react-icons-linecons-photo2:before {
+  content: "\ed22";
+}
+.react-icons-linecons-note1:before {
+  content: "\ed23";
+}
+.react-icons-linecons-clock3:before {
+  content: "\ed24";
+}
+.react-icons-linecons-paperplane:before {
+  content: "\ed25";
+}
+.react-icons-linecons-params:before {
+  content: "\ed26";
+}
+.react-icons-linecons-banknote:before {
+  content: "\ed27";
+}
+.react-icons-linecons-data:before {
+  content: "\ed28";
+}
+.react-icons-linecons-music2:before {
+  content: "\ed29";
+}
+.react-icons-linecons-megaphone:before {
+  content: "\ed2a";
+}
+.react-icons-linecons-study:before {
+  content: "\ed2b";
+}
+.react-icons-linecons-lab1:before {
+  content: "\ed2c";
+}
+.react-icons-linecons-food:before {
+  content: "\ed2d";
+}
+.react-icons-linecons-t-shirt:before {
+  content: "\ed2e";
+}
+.react-icons-linecons-fire2:before {
+  content: "\ed2f";
+}
+.react-icons-linecons-clip:before {
+  content: "\ed30";
+}
+.react-icons-linecons-shop1:before {
+  content: "\ed31";
+}
+.react-icons-linecons-calendar3:before {
+  content: "\ed32";
+}
+.react-icons-linecons-wallet:before {
+  content: "\ed33";
+}
+.react-icons-linecons-vynil:before {
+  content: "\ed34";
+}
+.react-icons-linecons-truck2:before {
+  content: "\ed35";
+}
+.react-icons-linecons-world1:before {
+  content: "\ed36";
+}

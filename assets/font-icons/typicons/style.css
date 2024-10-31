@@ -1,0 +1,949 @@
+@font-face {
+  font-family: 'react-icons-typicons';
+  src:
+    url('fonts/react-icons-typicons.ttf?lctgmo') format('truetype'),
+    url('fonts/react-icons-typicons.woff?lctgmo') format('woff'),
+    url('fonts/react-icons-typicons.svg?lctgmo#react-icons-typicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="react-icons-typicons-"], [class*=" react-icons-typicons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'react-icons-typicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.react-icons-typicons-times1:before {
+  content: "\eb97";
+}
+.react-icons-typicons-tick:before {
+  content: "\eb98";
+}
+.react-icons-typicons-plus3:before {
+  content: "\eb99";
+}
+.react-icons-typicons-minus3:before {
+  content: "\eb9a";
+}
+.react-icons-typicons-equals:before {
+  content: "\eb9b";
+}
+.react-icons-typicons-divide:before {
+  content: "\eb9c";
+}
+.react-icons-typicons-chevron-right1:before {
+  content: "\eb9d";
+}
+.react-icons-typicons-chevron-left1:before {
+  content: "\eb9e";
+}
+.react-icons-typicons-arrow-right-thick:before {
+  content: "\eb9f";
+}
+.react-icons-typicons-arrow-left-thick:before {
+  content: "\eba0";
+}
+.react-icons-typicons-th-small:before {
+  content: "\eba1";
+}
+.react-icons-typicons-th-menu:before {
+  content: "\eba2";
+}
+.react-icons-typicons-th-list1:before {
+  content: "\eba3";
+}
+.react-icons-typicons-th-large1:before {
+  content: "\eba4";
+}
+.react-icons-typicons-home5:before {
+  content: "\eba5";
+}
+.react-icons-typicons-arrow-forward:before {
+  content: "\eba6";
+}
+.react-icons-typicons-arrow-back:before {
+  content: "\eba7";
+}
+.react-icons-typicons-rss4:before {
+  content: "\eba8";
+}
+.react-icons-typicons-location1:before {
+  content: "\eba9";
+}
+.react-icons-typicons-link3:before {
+  content: "\ebaa";
+}
+.react-icons-typicons-image3:before {
+  content: "\ebab";
+}
+.react-icons-typicons-arrow-up-thick:before {
+  content: "\ebac";
+}
+.react-icons-typicons-arrow-down-thick:before {
+  content: "\ebad";
+}
+.react-icons-typicons-starburst:before {
+  content: "\ebae";
+}
+.react-icons-typicons-starburst-outline:before {
+  content: "\ebaf";
+}
+.react-icons-typicons-star2:before {
+  content: "\ebb0";
+}
+.react-icons-typicons-flow-children:before {
+  content: "\ebb1";
+}
+.react-icons-typicons-export:before {
+  content: "\ebb2";
+}
+.react-icons-typicons-delete:before {
+  content: "\ebb3";
+}
+.react-icons-typicons-delete-outline:before {
+  content: "\ebb4";
+}
+.react-icons-typicons-cloud-storage:before {
+  content: "\ebb5";
+}
+.react-icons-typicons-wi-fi:before {
+  content: "\ebb6";
+}
+.react-icons-typicons-heart2:before {
+  content: "\ebb7";
+}
+.react-icons-typicons-flash1:before {
+  content: "\ebb8";
+}
+.react-icons-typicons-cancel:before {
+  content: "\ebb9";
+}
+.react-icons-typicons-backspace:before {
+  content: "\ebba";
+}
+.react-icons-typicons-attachment1:before {
+  content: "\ebbb";
+}
+.react-icons-typicons-arrow-move:before {
+  content: "\ebbc";
+}
+.react-icons-typicons-warning2:before {
+  content: "\ebbd";
+}
+.react-icons-typicons-user3:before {
+  content: "\ebbe";
+}
+.react-icons-typicons-radar:before {
+  content: "\ebbf";
+}
+.react-icons-typicons-lock-open:before {
+  content: "\ebc0";
+}
+.react-icons-typicons-lock-closed:before {
+  content: "\ebc1";
+}
+.react-icons-typicons-location-arrow1:before {
+  content: "\ebc2";
+}
+.react-icons-typicons-info3:before {
+  content: "\ebc3";
+}
+.react-icons-typicons-user-delete:before {
+  content: "\ebc4";
+}
+.react-icons-typicons-user-add:before {
+  content: "\ebc5";
+}
+.react-icons-typicons-media-pause:before {
+  content: "\ebc6";
+}
+.react-icons-typicons-group1:before {
+  content: "\ebc7";
+}
+.react-icons-typicons-chart-pie:before {
+  content: "\ebc8";
+}
+.react-icons-typicons-chart-line:before {
+  content: "\ebc9";
+}
+.react-icons-typicons-chart-bar:before {
+  content: "\ebca";
+}
+.react-icons-typicons-chart-area:before {
+  content: "\ebcb";
+}
+.react-icons-typicons-video:before {
+  content: "\ebcc";
+}
+.react-icons-typicons-point-of-interest:before {
+  content: "\ebcd";
+}
+.react-icons-typicons-infinity:before {
+  content: "\ebce";
+}
+.react-icons-typicons-globe1:before {
+  content: "\ebcf";
+}
+.react-icons-typicons-eye3:before {
+  content: "\ebd0";
+}
+.react-icons-typicons-cog3:before {
+  content: "\ebd1";
+}
+.react-icons-typicons-camera3:before {
+  content: "\ebd2";
+}
+.react-icons-typicons-upload5:before {
+  content: "\ebd3";
+}
+.react-icons-typicons-scissors2:before {
+  content: "\ebd4";
+}
+.react-icons-typicons-refresh1:before {
+  content: "\ebd5";
+}
+.react-icons-typicons-pin1:before {
+  content: "\ebd6";
+}
+.react-icons-typicons-key3:before {
+  content: "\ebd7";
+}
+.react-icons-typicons-info-large:before {
+  content: "\ebd8";
+}
+.react-icons-typicons-eject3:before {
+  content: "\ebd9";
+}
+.react-icons-typicons-download5:before {
+  content: "\ebda";
+}
+.react-icons-typicons-zoom:before {
+  content: "\ebdb";
+}
+.react-icons-typicons-zoom-out1:before {
+  content: "\ebdc";
+}
+.react-icons-typicons-zoom-in1:before {
+  content: "\ebdd";
+}
+.react-icons-typicons-sort-numerically:before {
+  content: "\ebde";
+}
+.react-icons-typicons-sort-alphabetically:before {
+  content: "\ebdf";
+}
+.react-icons-typicons-input-checked:before {
+  content: "\ebe0";
+}
+.react-icons-typicons-calender:before {
+  content: "\ebe1";
+}
+.react-icons-typicons-world:before {
+  content: "\ebe2";
+}
+.react-icons-typicons-notes:before {
+  content: "\ebe3";
+}
+.react-icons-typicons-code1:before {
+  content: "\ebe4";
+}
+.react-icons-typicons-arrow-sync:before {
+  content: "\ebe5";
+}
+.react-icons-typicons-arrow-shuffle:before {
+  content: "\ebe6";
+}
+.react-icons-typicons-arrow-repeat:before {
+  content: "\ebe7";
+}
+.react-icons-typicons-arrow-minimise:before {
+  content: "\ebe8";
+}
+.react-icons-typicons-arrow-maximise:before {
+  content: "\ebe9";
+}
+.react-icons-typicons-arrow-loop:before {
+  content: "\ebea";
+}
+.react-icons-typicons-anchor1:before {
+  content: "\ebeb";
+}
+.react-icons-typicons-spanner:before {
+  content: "\ebec";
+}
+.react-icons-typicons-puzzle:before {
+  content: "\ebed";
+}
+.react-icons-typicons-power1:before {
+  content: "\ebee";
+}
+.react-icons-typicons-plane1:before {
+  content: "\ebef";
+}
+.react-icons-typicons-pi:before {
+  content: "\ebf0";
+}
+.react-icons-typicons-phone2:before {
+  content: "\ebf1";
+}
+.react-icons-typicons-microphone2:before {
+  content: "\ebf2";
+}
+.react-icons-typicons-media-rewind:before {
+  content: "\ebf3";
+}
+.react-icons-typicons-flag2:before {
+  content: "\ebf4";
+}
+.react-icons-typicons-adjust-brightness:before {
+  content: "\ebf5";
+}
+.react-icons-typicons-waves:before {
+  content: "\ebf6";
+}
+.react-icons-typicons-social-twitter:before {
+  content: "\ebf7";
+}
+.react-icons-typicons-social-facebook:before {
+  content: "\ebf8";
+}
+.react-icons-typicons-social-dribbble:before {
+  content: "\ebf9";
+}
+.react-icons-typicons-media-stop:before {
+  content: "\ebfa";
+}
+.react-icons-typicons-media-record:before {
+  content: "\ebfb";
+}
+.react-icons-typicons-media-play:before {
+  content: "\ebfc";
+}
+.react-icons-typicons-media-fast-forward:before {
+  content: "\ebfd";
+}
+.react-icons-typicons-media-eject:before {
+  content: "\ebfe";
+}
+.react-icons-typicons-social-vimeo:before {
+  content: "\ebff";
+}
+.react-icons-typicons-social-tumbler:before {
+  content: "\ec00";
+}
+.react-icons-typicons-social-skype:before {
+  content: "\ec01";
+}
+.react-icons-typicons-social-pinterest:before {
+  content: "\ec02";
+}
+.react-icons-typicons-social-linkedin:before {
+  content: "\ec03";
+}
+.react-icons-typicons-social-last-fm:before {
+  content: "\ec04";
+}
+.react-icons-typicons-social-github:before {
+  content: "\ec05";
+}
+.react-icons-typicons-social-flickr:before {
+  content: "\ec06";
+}
+.react-icons-typicons-at2:before {
+  content: "\ec07";
+}
+.react-icons-typicons-times-outline:before {
+  content: "\ec08";
+}
+.react-icons-typicons-plus-outline:before {
+  content: "\ec09";
+}
+.react-icons-typicons-minus-outline:before {
+  content: "\ec0a";
+}
+.react-icons-typicons-tick-outline:before {
+  content: "\ec0b";
+}
+.react-icons-typicons-th-large-outline:before {
+  content: "\ec0c";
+}
+.react-icons-typicons-equals-outline:before {
+  content: "\ec0d";
+}
+.react-icons-typicons-divide-outline:before {
+  content: "\ec0e";
+}
+.react-icons-typicons-chevron-right-outline:before {
+  content: "\ec0f";
+}
+.react-icons-typicons-chevron-left-outline:before {
+  content: "\ec10";
+}
+.react-icons-typicons-arrow-right-outline:before {
+  content: "\ec11";
+}
+.react-icons-typicons-arrow-left-outline:before {
+  content: "\ec12";
+}
+.react-icons-typicons-th-small-outline:before {
+  content: "\ec13";
+}
+.react-icons-typicons-th-menu-outline:before {
+  content: "\ec14";
+}
+.react-icons-typicons-th-list-outline:before {
+  content: "\ec15";
+}
+.react-icons-typicons-news:before {
+  content: "\ec16";
+}
+.react-icons-typicons-home-outline:before {
+  content: "\ec17";
+}
+.react-icons-typicons-arrow-up-outline:before {
+  content: "\ec18";
+}
+.react-icons-typicons-arrow-forward-outline:before {
+  content: "\ec19";
+}
+.react-icons-typicons-arrow-down-outline:before {
+  content: "\ec1a";
+}
+.react-icons-typicons-arrow-back-outline:before {
+  content: "\ec1b";
+}
+.react-icons-typicons-trash1:before {
+  content: "\ec1c";
+}
+.react-icons-typicons-rss-outline:before {
+  content: "\ec1d";
+}
+.react-icons-typicons-message:before {
+  content: "\ec1e";
+}
+.react-icons-typicons-location-outline:before {
+  content: "\ec1f";
+}
+.react-icons-typicons-link-outline:before {
+  content: "\ec20";
+}
+.react-icons-typicons-image-outline:before {
+  content: "\ec21";
+}
+.react-icons-typicons-export-outline:before {
+  content: "\ec22";
+}
+.react-icons-typicons-cross1:before {
+  content: "\ec23";
+}
+.react-icons-typicons-wi-fi-outline:before {
+  content: "\ec24";
+}
+.react-icons-typicons-star-outline:before {
+  content: "\ec25";
+}
+.react-icons-typicons-media-pause-outline:before {
+  content: "\ec26";
+}
+.react-icons-typicons-mail5:before {
+  content: "\ec27";
+}
+.react-icons-typicons-heart-outline:before {
+  content: "\ec28";
+}
+.react-icons-typicons-flash-outline:before {
+  content: "\ec29";
+}
+.react-icons-typicons-cancel-outline:before {
+  content: "\ec2a";
+}
+.react-icons-typicons-beaker1:before {
+  content: "\ec2b";
+}
+.react-icons-typicons-arrow-move-outline:before {
+  content: "\ec2c";
+}
+.react-icons-typicons-watch:before {
+  content: "\ec2d";
+}
+.react-icons-typicons-warning-outline:before {
+  content: "\ec2e";
+}
+.react-icons-typicons-time:before {
+  content: "\ec2f";
+}
+.react-icons-typicons-radar-outline:before {
+  content: "\ec30";
+}
+.react-icons-typicons-lock-open-outline:before {
+  content: "\ec31";
+}
+.react-icons-typicons-location-arrow-outline:before {
+  content: "\ec32";
+}
+.react-icons-typicons-info-outline:before {
+  content: "\ec33";
+}
+.react-icons-typicons-backspace-outline:before {
+  content: "\ec34";
+}
+.react-icons-typicons-attachment-outline:before {
+  content: "\ec35";
+}
+.react-icons-typicons-user-outline:before {
+  content: "\ec36";
+}
+.react-icons-typicons-user-delete-outline:before {
+  content: "\ec37";
+}
+.react-icons-typicons-user-add-outline:before {
+  content: "\ec38";
+}
+.react-icons-typicons-lock-closed-outline:before {
+  content: "\ec39";
+}
+.react-icons-typicons-group-outline:before {
+  content: "\ec3a";
+}
+.react-icons-typicons-chart-pie-outline:before {
+  content: "\ec3b";
+}
+.react-icons-typicons-chart-line-outline:before {
+  content: "\ec3c";
+}
+.react-icons-typicons-chart-bar-outline:before {
+  content: "\ec3d";
+}
+.react-icons-typicons-chart-area-outline:before {
+  content: "\ec3e";
+}
+.react-icons-typicons-video-outline:before {
+  content: "\ec3f";
+}
+.react-icons-typicons-point-of-interest-outline:before {
+  content: "\ec40";
+}
+.react-icons-typicons-map3:before {
+  content: "\ec41";
+}
+.react-icons-typicons-key-outline:before {
+  content: "\ec42";
+}
+.react-icons-typicons-infinity-outline:before {
+  content: "\ec43";
+}
+.react-icons-typicons-globe-outline:before {
+  content: "\ec44";
+}
+.react-icons-typicons-eye-outline:before {
+  content: "\ec45";
+}
+.react-icons-typicons-cog-outline:before {
+  content: "\ec46";
+}
+.react-icons-typicons-camera-outline:before {
+  content: "\ec47";
+}
+.react-icons-typicons-upload-outline:before {
+  content: "\ec48";
+}
+.react-icons-typicons-support1:before {
+  content: "\ec49";
+}
+.react-icons-typicons-scissors-outline:before {
+  content: "\ec4a";
+}
+.react-icons-typicons-refresh-outline:before {
+  content: "\ec4b";
+}
+.react-icons-typicons-info-large-outline:before {
+  content: "\ec4c";
+}
+.react-icons-typicons-eject-outline:before {
+  content: "\ec4d";
+}
+.react-icons-typicons-download-outline:before {
+  content: "\ec4e";
+}
+.react-icons-typicons-battery-mid:before {
+  content: "\ec4f";
+}
+.react-icons-typicons-battery-low:before {
+  content: "\ec50";
+}
+.react-icons-typicons-battery-high:before {
+  content: "\ec51";
+}
+.react-icons-typicons-zoom-outline:before {
+  content: "\ec52";
+}
+.react-icons-typicons-zoom-out-outline:before {
+  content: "\ec53";
+}
+.react-icons-typicons-zoom-in-outline:before {
+  content: "\ec54";
+}
+.react-icons-typicons-tag1:before {
+  content: "\ec55";
+}
+.react-icons-typicons-tabs-outline:before {
+  content: "\ec56";
+}
+.react-icons-typicons-pin-outline:before {
+  content: "\ec57";
+}
+.react-icons-typicons-message-typing:before {
+  content: "\ec58";
+}
+.react-icons-typicons-directions:before {
+  content: "\ec59";
+}
+.react-icons-typicons-battery-full2:before {
+  content: "\ec5a";
+}
+.react-icons-typicons-battery-charge:before {
+  content: "\ec5b";
+}
+.react-icons-typicons-pipette:before {
+  content: "\ec5c";
+}
+.react-icons-typicons-pencil3:before {
+  content: "\ec5d";
+}
+.react-icons-typicons-folder2:before {
+  content: "\ec5e";
+}
+.react-icons-typicons-folder-delete:before {
+  content: "\ec5f";
+}
+.react-icons-typicons-folder-add:before {
+  content: "\ec60";
+}
+.react-icons-typicons-edit1:before {
+  content: "\ec61";
+}
+.react-icons-typicons-document:before {
+  content: "\ec62";
+}
+.react-icons-typicons-document-delete:before {
+  content: "\ec63";
+}
+.react-icons-typicons-document-add:before {
+  content: "\ec64";
+}
+.react-icons-typicons-brush1:before {
+  content: "\ec65";
+}
+.react-icons-typicons-thumbs-up1:before {
+  content: "\ec66";
+}
+.react-icons-typicons-thumbs-down1:before {
+  content: "\ec67";
+}
+.react-icons-typicons-pen2:before {
+  content: "\ec68";
+}
+.react-icons-typicons-sort-numerically-outline:before {
+  content: "\ec69";
+}
+.react-icons-typicons-sort-alphabetically-outline:before {
+  content: "\ec6a";
+}
+.react-icons-typicons-social-last-fm-circular:before {
+  content: "\ec6b";
+}
+.react-icons-typicons-social-github-circular:before {
+  content: "\ec6c";
+}
+.react-icons-typicons-compass4:before {
+  content: "\ec6d";
+}
+.react-icons-typicons-bookmark2:before {
+  content: "\ec6e";
+}
+.react-icons-typicons-input-checked-outline:before {
+  content: "\ec6f";
+}
+.react-icons-typicons-code-outline:before {
+  content: "\ec70";
+}
+.react-icons-typicons-calender-outline:before {
+  content: "\ec71";
+}
+.react-icons-typicons-business-card:before {
+  content: "\ec72";
+}
+.react-icons-typicons-arrow-up4:before {
+  content: "\ec73";
+}
+.react-icons-typicons-arrow-sync-outline:before {
+  content: "\ec74";
+}
+.react-icons-typicons-arrow-right4:before {
+  content: "\ec75";
+}
+.react-icons-typicons-arrow-repeat-outline:before {
+  content: "\ec76";
+}
+.react-icons-typicons-arrow-loop-outline:before {
+  content: "\ec77";
+}
+.react-icons-typicons-arrow-left4:before {
+  content: "\ec78";
+}
+.react-icons-typicons-flow-switch:before {
+  content: "\ec79";
+}
+.react-icons-typicons-flow-parallel:before {
+  content: "\ec7a";
+}
+.react-icons-typicons-flow-merge:before {
+  content: "\ec7b";
+}
+.react-icons-typicons-document-text:before {
+  content: "\ec7c";
+}
+.react-icons-typicons-clipboard2:before {
+  content: "\ec7d";
+}
+.react-icons-typicons-calculator2:before {
+  content: "\ec7e";
+}
+.react-icons-typicons-arrow-minimise-outline:before {
+  content: "\ec7f";
+}
+.react-icons-typicons-arrow-maximise-outline:before {
+  content: "\ec80";
+}
+.react-icons-typicons-arrow-down4:before {
+  content: "\ec81";
+}
+.react-icons-typicons-gift2:before {
+  content: "\ec82";
+}
+.react-icons-typicons-film2:before {
+  content: "\ec83";
+}
+.react-icons-typicons-database2:before {
+  content: "\ec84";
+}
+.react-icons-typicons-bell2:before {
+  content: "\ec85";
+}
+.react-icons-typicons-anchor-outline:before {
+  content: "\ec86";
+}
+.react-icons-typicons-adjust-contrast:before {
+  content: "\ec87";
+}
+.react-icons-typicons-world-outline:before {
+  content: "\ec88";
+}
+.react-icons-typicons-shopping-bag1:before {
+  content: "\ec89";
+}
+.react-icons-typicons-power-outline:before {
+  content: "\ec8a";
+}
+.react-icons-typicons-notes-outline:before {
+  content: "\ec8b";
+}
+.react-icons-typicons-device-tablet:before {
+  content: "\ec8c";
+}
+.react-icons-typicons-device-phone:before {
+  content: "\ec8d";
+}
+.react-icons-typicons-device-laptop:before {
+  content: "\ec8e";
+}
+.react-icons-typicons-device-desktop:before {
+  content: "\ec8f";
+}
+.react-icons-typicons-briefcase2:before {
+  content: "\ec90";
+}
+.react-icons-typicons-stopwatch1:before {
+  content: "\ec91";
+}
+.react-icons-typicons-spanner-outline:before {
+  content: "\ec92";
+}
+.react-icons-typicons-puzzle-outline:before {
+  content: "\ec93";
+}
+.react-icons-typicons-printer1:before {
+  content: "\ec94";
+}
+.react-icons-typicons-pi-outline:before {
+  content: "\ec95";
+}
+.react-icons-typicons-lightbulb1:before {
+  content: "\ec96";
+}
+.react-icons-typicons-flag-outline:before {
+  content: "\ec97";
+}
+.react-icons-typicons-contacts:before {
+  content: "\ec98";
+}
+.react-icons-typicons-archive1:before {
+  content: "\ec99";
+}
+.react-icons-typicons-weather-stormy:before {
+  content: "\ec9a";
+}
+.react-icons-typicons-weather-shower:before {
+  content: "\ec9b";
+}
+.react-icons-typicons-weather-partly-sunny:before {
+  content: "\ec9c";
+}
+.react-icons-typicons-weather-downpour:before {
+  content: "\ec9d";
+}
+.react-icons-typicons-weather-cloudy:before {
+  content: "\ec9e";
+}
+.react-icons-typicons-plane-outline:before {
+  content: "\ec9f";
+}
+.react-icons-typicons-phone-outline:before {
+  content: "\eca0";
+}
+.react-icons-typicons-microphone-outline:before {
+  content: "\eca1";
+}
+.react-icons-typicons-weather-windy:before {
+  content: "\eca2";
+}
+.react-icons-typicons-weather-windy-cloudy:before {
+  content: "\eca3";
+}
+.react-icons-typicons-weather-sunny:before {
+  content: "\eca4";
+}
+.react-icons-typicons-weather-snow:before {
+  content: "\eca5";
+}
+.react-icons-typicons-weather-night:before {
+  content: "\eca6";
+}
+.react-icons-typicons-media-stop-outline:before {
+  content: "\eca7";
+}
+.react-icons-typicons-media-rewind-outline:before {
+  content: "\eca8";
+}
+.react-icons-typicons-media-record-outline:before {
+  content: "\eca9";
+}
+.react-icons-typicons-media-play-outline:before {
+  content: "\ecaa";
+}
+.react-icons-typicons-media-fast-forward-outline:before {
+  content: "\ecab";
+}
+.react-icons-typicons-media-eject-outline:before {
+  content: "\ecac";
+}
+.react-icons-typicons-wine:before {
+  content: "\ecad";
+}
+.react-icons-typicons-waves-outline:before {
+  content: "\ecae";
+}
+.react-icons-typicons-ticket2:before {
+  content: "\ecaf";
+}
+.react-icons-typicons-tags1:before {
+  content: "\ecb0";
+}
+.react-icons-typicons-plug1:before {
+  content: "\ecb1";
+}
+.react-icons-typicons-headphones3:before {
+  content: "\ecb2";
+}
+.react-icons-typicons-credit-card2:before {
+  content: "\ecb3";
+}
+.react-icons-typicons-coffee1:before {
+  content: "\ecb4";
+}
+.react-icons-typicons-book3:before {
+  content: "\ecb5";
+}
+.react-icons-typicons-beer1:before {
+  content: "\ecb6";
+}
+.react-icons-typicons-volume1:before {
+  content: "\ecb7";
+}
+.react-icons-typicons-volume-up1:before {
+  content: "\ecb8";
+}
+.react-icons-typicons-volume-mute3:before {
+  content: "\ecb9";
+}
+.react-icons-typicons-volume-down1:before {
+  content: "\ecba";
+}
+.react-icons-typicons-social-vimeo-circular:before {
+  content: "\ecbb";
+}
+.react-icons-typicons-social-twitter-circular:before {
+  content: "\ecbc";
+}
+.react-icons-typicons-social-pinterest-circular:before {
+  content: "\ecbd";
+}
+.react-icons-typicons-social-linkedin-circular:before {
+  content: "\ecbe";
+}
+.react-icons-typicons-social-facebook-circular:before {
+  content: "\ecbf";
+}
+.react-icons-typicons-social-dribbble-circular:before {
+  content: "\ecc0";
+}
+.react-icons-typicons-tree2:before {
+  content: "\ecc1";
+}
+.react-icons-typicons-thermometer1:before {
+  content: "\ecc2";
+}
+.react-icons-typicons-social-tumbler-circular:before {
+  content: "\ecc3";
+}
+.react-icons-typicons-social-skype-outline:before {
+  content: "\ecc4";
+}
+.react-icons-typicons-social-flickr-circular:before {
+  content: "\ecc5";
+}
+.react-icons-typicons-social-at-circular:before {
+  content: "\ecc6";
+}
+.react-icons-typicons-shopping-cart1:before {
+  content: "\ecc7";
+}
+.react-icons-typicons-messages:before {
+  content: "\ecc8";
+}
+.react-icons-typicons-leaf2:before {
+  content: "\ecc9";
+}
+.react-icons-typicons-feather:before {
+  content: "\ecca";
+}
